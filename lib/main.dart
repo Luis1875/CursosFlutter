@@ -28,14 +28,14 @@ class MyApp extends StatelessWidget{
       return  MaterialApp(
         routes: {
           'home': (context) => const WigetButtons(),
-         'practiaCuadro':(context) => const WigetContainer(),
+         'WigetContainer':(context) => const WigetContainer(),
          'widgetAppBar': (context) => const WigetAppbar(),
          'WidgetListViewAndListtitle':(context) => const WidgetListViewAndListtitle(),
          'WidgetAnimatedContainer' :(context) => const WidgetAnimatedContainer(),
          'WidgetFormulario' :(context) => const WidgetFormulario(),
        },
        debugShowCheckedModeBanner: true,
-      initialRoute: 'WidgetFormulario',
+      initialRoute: 'WigetContainer',
       );// debugShowCheckedModeBanner: true, home: PracticaDegradado());
   }
 }
